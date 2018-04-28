@@ -1,5 +1,3 @@
-/*=== MEDIA QUERY ===*/
-@import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900");
 body {
   line-height: 1.5;
   font-family: "Muli", sans-serif;
@@ -48,7 +46,16 @@ label {
   letter-spacing: 0;
   color: #848484;
 }
-
+.navbar-toggler{
+  border-color: #333;
+  padding: 10px;
+}
+.show {
+  text-align: center
+}
+.show .main-nav .nav-item .nav-link::after{
+  display: none;
+}
 .nav-pills .nav-link {
   font-size: 16px;
 }
