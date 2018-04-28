@@ -144,6 +144,10 @@ font-weight: bold
   .navbar-brand{
     margin-top: 10px 
   }
+  .dropdown-menu{
+    text-align: center!important;
+   
+  }
 }
 
 @media (max-width: 480px) {
