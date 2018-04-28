@@ -74,6 +74,9 @@ font-weight: bold
   .nav-pills .nav-link {
     font-size: 12px;
   }
+  .m-l-xs-80{
+    margin-left: 80%
+  }
 }
 
 .nav-pills.with-background .nav-item {
@@ -128,6 +131,18 @@ font-weight: bold
 @media (max-width: 768px) {
   .nav-pills.transparent .nav-link {
     font-size: 17px;
+  }
+  .top-nav{
+    display: none
+  }
+  .m-l-xs-80{
+    margin-left: 80%
+  }
+  .navbar-toggler-icon{
+    height: auto
+  }
+  .navbar-brand{
+    margin-top: 10px 
   }
 }
 
@@ -890,5 +905,22 @@ font-size: 60px
 .top-to a:hover {
   text-decoration: none;
 }
-
+@media (max-width: 480px){
+  .footer{
+    text-align: center
+  }
+  .footer-logo{
+    right: 37%
+  }
+  .footer .block h4::after{
+    display: none
+  }
+  .top-to{
+    right: 5px;
+    bottom: 10px
+  }
+  .copyright{
+    margin-top: 20px
+  }
+}
 /*# sourceMappingURL=maps/style.css.map */
